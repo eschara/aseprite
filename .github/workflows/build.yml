@@ -44,7 +44,7 @@ jobs:
       shell: bash
       run: |
         cd build && ninja
-    - uses: 
+    - uses: actions/upload-artifact@v3
       with:
         name: aseprite
         path: |
